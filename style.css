@@ -1,19 +1,39 @@
 body 
 {
-	background-color: #faf2c3;
+/*	background-color: #faf2c3;*/
+	background-color: white;
+}
+
+#text
+{
+	position: absolute;
+	margin: auto;
+	left: 20%;
 }
 
 #island1
 {
 	position: absolute;
 	margin: auto;
-	width: 7%;
-	height: 7%;
-	right: 10%;
-	top: 20%;
-	background: linear-gradient(180deg,	#f6d7b0 0%, #e7c496 50%, transparent 50%);
+	width: 5%;
+	height: 5%;
+	right: 7.5%;
+	top: 15%;
+	background: linear-gradient(180deg,	#f6d7b0 0%, #e7c496 30%, transparent 50%);
 	border-radius: 50%;
 	overflow: ;
+}
+
+#sand
+{
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	top: -40%;
+	left: -42.5%;
+	opacity: .5;
+	background: radial-gradient(#f6d7b0, transparent 75%);
+	border-radius: 50%;
 }
 
 #ocean1
@@ -31,7 +51,7 @@ body
 #tree
 {
 	position: absolute;
-	background-color: #DAC7A5;
+	background-color: #b99d4f;
 	width: 10%;
 	height: 25%;
 
@@ -47,7 +67,7 @@ body
 	transform: rotate(285deg);
 	border-bottom: 2px solid transparent;
     border-Top: 2px solid transparent;
-    border-left: 12px solid #DAC7A5;
+    border-left: 12px solid #b99d4f;
     height: 65%;
 }
 
@@ -85,11 +105,12 @@ body
 	height: 15px;
 	width: 100%;
 	height: 300%;
-	background: conic-gradient(
+	/*background: conic-gradient(
 		from 0deg,
 		green 0deg 180deg,
 		lightgreen 180deg 360deg
-	);
+	);*/
+	background: radial-gradient(green 15%, lightgreen);
 	transform: rotate(105deg);
 	border-radius: 50%;
 }
@@ -99,7 +120,7 @@ body
 	position: absolute;
 	border-bottom: 1px solid transparent;
     border-Top: 2px solid transparent;
-    border-left: 6px solid #faf2c3;
+    border-left: 6px solid white;
     background-color: transparent;
     top: 20%;
     left: -15%;
@@ -111,7 +132,7 @@ body
 	position: absolute;
 	border-bottom: 1px solid transparent;
     border-Top: 2px solid transparent;
-    border-left: 6px solid #faf2c3;
+    border-left: 6px solid white;
     background-color: transparent;
     top: 35%;
     left: 60%;
@@ -123,7 +144,7 @@ body
 	position: absolute;
 	border-bottom: 1px solid transparent;
     border-Top: 2px solid transparent;
-    border-left: 6px solid #faf2c3;
+    border-left: 6px solid white;
     background-color: transparent;
     top: 70%;
     left: -15%;
@@ -138,12 +159,12 @@ body
 
 .to 
 {
-	background: conic-gradient(
+	/*background: conic-gradient(
 		from 0deg,
 		lightgreen 0deg 10deg,
 		green 10deg 190deg,
 		lightgreen 180deg 360deg
-	);
+	);*/
 	top: -550%;
 	left: 60%;
 	transform: rotate(45deg);
@@ -151,12 +172,12 @@ body
 
 .tre 
 {
-	background: conic-gradient(
+	/*background: conic-gradient(
 		from 0deg,
 		green 0deg 170deg,
 		lightgreen 170deg 345deg,
 		green 345deg 360deg
-	);
+	);*/
 	top: -535%;
 	left: -150%;
 	transform: rotate(145deg);
@@ -164,12 +185,12 @@ body
 
 .fire
 {
-	background: conic-gradient(
+	/*background: conic-gradient(
 		from 0deg,
 		green 0deg 170deg,
 		lightgreen 170deg 345deg,
 		green 345deg 360deg
-	);
+	);*/
 	top: -415%;
 	left: -200%;
 	transform: rotate(80deg);
@@ -187,3 +208,90 @@ body
 	z-index: -1;
 	transform: scale(-1, 1);
 }
+
+.step 
+{
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	background-color: sandybrown;
+	opacity: .8;
+	left: 90%;
+	top: 25%;
+	border-radius: 25%;
+	filter: blur(1px);
+}
+
+.first
+{
+	top: 30%;
+	left: 89.5%;
+	transform: rotate(15deg);
+}
+
+.second
+{
+	top: 35%;
+	left: 88.5%;
+	transform: rotate(25deg);
+}
+
+#island2
+{
+	position: absolute;
+	margin: auto;
+	width: 5%;
+	height: 5%;
+	right: 13%;
+	top: 42.5%;
+	background: linear-gradient(180deg,	#f6d7b0 0%, #e7c496 30%, transparent 50%);
+	border-radius: 50%;
+}
+
+.third
+{
+	top: 52.5%;
+	left: 88%;
+	transform: rotate(-15deg);
+}
+
+.fourth
+{
+	top: 57.5%;
+	left: 89%;
+	transform: rotate(-30deg);
+}
+
+.fifth
+{
+	top: 62.5%;
+	left: 90%;
+	transform: rotate(-35deg);
+}
+
+#island3
+{
+	position: absolute;
+	margin: auto;
+	width: 5%;
+	height: 5%;
+	right: 3%;
+	top: 70%;
+	background: linear-gradient(180deg,	#f6d7b0 0%, #e7c496 30%, transparent 50%);
+	border-radius: 50%;
+}
+
+.sixth
+{
+	top: 80%;
+	left: 90%;
+	transform: rotate(25deg);
+}
+
+.seventh
+{
+	top: 84%;	
+	left: 88.5%;
+	transform: rotate(50deg);
+}
+
