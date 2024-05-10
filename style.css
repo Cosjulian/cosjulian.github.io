@@ -4,20 +4,13 @@ body
 	background-color: white;
 }
 
-#text
-{
-	position: absolute;
-	margin: auto;
-	left: 20%;
-}
-
 #island1
 {
 	position: absolute;
 	margin: auto;
 	width: 5%;
 	height: 5%;
-	right: 7.5%;
+	right: 47.5%;
 	top: 15%;
 	background: linear-gradient(180deg,	#f6d7b0 0%, #e7c496 30%, transparent 50%);
 	border-radius: 50%;
@@ -32,7 +25,7 @@ body
 	top: -40%;
 	left: -42.5%;
 	opacity: .5;
-	background: radial-gradient(#f6d7b0, transparent 75%);
+	background: radial-gradient(transparent, transparent 75%);
 	border-radius: 50%;
 }
 
@@ -214,9 +207,9 @@ body
 	position: absolute;
 	width: 10px;
 	height: 20px;
-	background-color: sandybrown;
+	background-color: darkslategray;
 	opacity: .8;
-	left: 90%;
+	left: 50%;
 	top: 25%;
 	border-radius: 25%;
 	filter: blur(1px);
@@ -225,14 +218,14 @@ body
 .first
 {
 	top: 30%;
-	left: 89.5%;
+	left: 49.5%;
 	transform: rotate(15deg);
 }
 
 .second
 {
 	top: 35%;
-	left: 88.5%;
+	left: 48.5%;
 	transform: rotate(25deg);
 }
 
@@ -242,30 +235,108 @@ body
 	margin: auto;
 	width: 5%;
 	height: 5%;
-	right: 13%;
-	top: 42.5%;
+	right: 52.5%;
+	top: 47%;
 	background: linear-gradient(180deg,	#f6d7b0 0%, #e7c496 30%, transparent 50%);
 	border-radius: 50%;
 }
 
+#grass
+{
+	position: absolute;
+	background: linear-gradient(180deg, greenyellow, transparent 25%);
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+#fort 
+{
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	top: -95%;
+	left: 30%;
+	background-image: url("seabrick.png");
+	background-repeat: repeat;
+	background-size: 50% 50%;
+}
+
+.window 
+{
+	background-color: black;
+	width: 10%;
+	height: 10%;
+
+}
+
+.brick
+{
+	position: absolute;
+	background-color: white;
+	border-radius: 15%;
+	top: -5%;	
+	left: 12.5%;
+	width: 10%;
+	height: 10%;
+}
+
+.el 
+{
+	left: 35%;
+}
+
+.tw
+{
+	left: 55%;
+}
+
+.th 
+{
+	left: 77.5%;
+}
+
+#flagpole
+{
+	position: absolute;
+	border-radius: 10%;
+	width: 2.5%;
+	height: 40%;
+	top: -40%;
+	left: 48.75%;
+	background-color: grey;
+}
+
+#banner
+{
+	position: absolute;
+	top:-40%;
+	left: 51.25%;
+	width: 40%;
+	height: 20%;
+	background-repeat: no-repeat;
+	background-image: url("ravenbanner.png");
+	background-size: 100% 100%;
+}
+
 .third
 {
-	top: 52.5%;
-	left: 88%;
+	top: 57.5%;
+	left: 46%;
 	transform: rotate(-15deg);
 }
 
 .fourth
 {
-	top: 57.5%;
-	left: 89%;
+	top: 62.5%;
+	left: 47.5%;
 	transform: rotate(-30deg);
 }
 
 .fifth
 {
-	top: 62.5%;
-	left: 90%;
+	top: 66.5%;
+	left: 49%;
 	transform: rotate(-35deg);
 }
 
@@ -275,23 +346,43 @@ body
 	margin: auto;
 	width: 5%;
 	height: 5%;
-	right: 3%;
-	top: 70%;
+	right: 43%;
+	top: 75%;
 	background: linear-gradient(180deg,	#f6d7b0 0%, #e7c496 30%, transparent 50%);
 	border-radius: 50%;
 }
 
 .sixth
 {
-	top: 80%;
-	left: 90%;
+	top: 85%;
+	left: 50%;
 	transform: rotate(25deg);
 }
 
 .seventh
 {
-	top: 84%;	
-	left: 88.5%;
+	top: 89%;	
+	left: 48%;
 	transform: rotate(50deg);
+}
+
+#sailboat
+{
+	position: absolute;
+	top: 92%;	
+	left: 37.5%;
+	border-radius: 40%;
+	width: 100px;
+	height: 35px;
+	background-color: black;
+}
+
+#sailboattop
+{	
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	top: -30%;
 }
 
