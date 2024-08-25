@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: black;
+  background: whitesmoke;
+}
+
+.link {
+  color: deepskyblue;
+}
+
+.link:hover {
+  text-underline-offset: 3px;
+  text-decoration: underline;
+}
+
+.svgLink:hover {
+  fill: deepskyblue;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
