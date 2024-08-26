@@ -33,6 +33,48 @@ export default function Home() {
         </Stack>
         <Stack textAlign="left" style={{width: '100%', marginTop: '25px'}}>
           <h2>Some projects I'm working on:</h2>
+          <List>
+            <ListItem>
+              <Stack direction="column">
+                <ListItemText className="link">
+                  IoT Hydroponic Farm
+                </ListItemText>
+                <ListItemText className="linkText">
+                  This personal project is focused on completely computerizing farming simple crops.
+                </ListItemText>
+              </Stack>
+            </ListItem>
+            <ListItem>
+              <Stack direction="column">
+                <ListItemText className="link">
+                  Explorations in Computer Vision
+                </ListItemText>
+                <ListItemText className="linkText">
+                  Deepening my interest in computer vision.
+                </ListItemText>
+              </Stack>
+            </ListItem>
+            <ListItem onClick={()=>window.open('https://hunt.mazemap.com')}>
+              <Stack direction="column">
+                <ListItemText className="link">
+                  MazeHunt
+                </ListItemText>
+                <ListItemText className="linkText">
+                    This was the 2024 summer intern project for MazeMap.
+                </ListItemText>
+              </Stack>
+            </ListItem>
+            <ListItem>
+              <Stack direction="column">
+                <ListItemText className="link">
+                  Pass the Aux
+                </ListItemText>
+                <ListItemText className="linkText">
+                  My 2023 entry into the annual UCF Joust competition.
+                </ListItemText>
+              </Stack>
+            </ListItem>
+          </List>
         </Stack>
       </Stack>
     </Stack>

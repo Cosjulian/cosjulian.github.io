@@ -20,6 +20,10 @@ body {
   fill: deepskyblue;
 }
 
+.linkText {
+  color: grey;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
